@@ -3,7 +3,7 @@
 //  预付费
 //  参考链接：https://www.jianshu.com/p/c092b9da5d7d
 //  Created by sl on 2018/7/20.
-//  Copyright © 2018年 Pilot. All rights reserved.
+//  Copyright © 2018年 WSonglin. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
