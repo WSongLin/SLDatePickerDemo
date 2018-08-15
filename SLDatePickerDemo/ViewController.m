@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "Masonry.h"
 #import "SLDatePicker.h"
+#import "UIColor+Category.h"
 
 @interface ViewController ()
 
@@ -181,7 +182,7 @@
 - (UIView *)topContainerView {
     if (!_topContainerView) {
         UIView *view = [[UIView alloc] init];
-        view.backgroundColor = [UIColor colorWithRed:92.f / 255 green:172.f / 255 blue:238.f / 255 alpha:1.f];
+        view.backgroundColor = [UIColor colorWithHex:0x5CACEE];
         [self.alphaBackgroundView addSubview:view];
         
         _topContainerView = view;

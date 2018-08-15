@@ -18,6 +18,7 @@
 		73B0D139211D1AEB009B611F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B0D138211D1AEB009B611F /* main.m */; };
 		73B0D142211D1B61009B611F /* SLAssociatedDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B0D141211D1B61009B611F /* SLAssociatedDatePickerView.m */; };
 		73B0D146211D1F84009B611F /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B0D145211D1F84009B611F /* NSDate+Category.m */; };
+		73FDC6F121242383008DAD2F /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FDC6F021242383008DAD2F /* UIColor+Category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		73B0D143211D1D01009B611F /* SLAssociatedDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLAssociatedDatePickerView.h; sourceTree = "<group>"; };
 		73B0D144211D1F84009B611F /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
 		73B0D145211D1F84009B611F /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
+		73FDC6EF21242383008DAD2F /* UIColor+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
+		73FDC6F021242383008DAD2F /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
 		C99C6FDFC13FC29212143255 /* libPods-SLDatePickerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SLDatePickerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4AA19CFFFC29F1B8470F3A /* Pods-SLDatePickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLDatePickerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SLDatePickerDemo/Pods-SLDatePickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,10 +111,12 @@
 				7312FC38212168E30054ADC9 /* SLGeneralDatePickerView.m */,
 				73B0D143211D1D01009B611F /* SLAssociatedDatePickerView.h */,
 				73B0D141211D1B61009B611F /* SLAssociatedDatePickerView.m */,
-				73B0D144211D1F84009B611F /* NSDate+Category.h */,
-				73B0D145211D1F84009B611F /* NSDate+Category.m */,
 				7312FC3E212186110054ADC9 /* SLGlobalDefinition.h */,
 				7312FC3F212186110054ADC9 /* SLGlobalDefinition.m */,
+				73B0D144211D1F84009B611F /* NSDate+Category.h */,
+				73B0D145211D1F84009B611F /* NSDate+Category.m */,
+				73FDC6EF21242383008DAD2F /* UIColor+Category.h */,
+				73FDC6F021242383008DAD2F /* UIColor+Category.m */,
 			);
 			path = SLDatePicker;
 			sourceTree = SOURCE_ROOT;
@@ -220,6 +225,7 @@
 				7312FC40212186110054ADC9 /* SLGlobalDefinition.m in Sources */,
 				73B0D12E211D1AEB009B611F /* ViewController.m in Sources */,
 				7312FC39212168E30054ADC9 /* SLGeneralDatePickerView.m in Sources */,
+				73FDC6F121242383008DAD2F /* UIColor+Category.m in Sources */,
 				73B0D142211D1B61009B611F /* SLAssociatedDatePickerView.m in Sources */,
 				73B0D146211D1F84009B611F /* NSDate+Category.m in Sources */,
 				73B0D139211D1AEB009B611F /* main.m in Sources */,
